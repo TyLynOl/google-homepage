@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <HTML>
+<style>
+    div {
+            display: block;
+            align-content: center;
+            padding-top: 16px;
+    }
+    #search-buttons {
+            text-align: center;
+            border-radius: 4px;
+    }
+</style>
 <head>
     <title>Google</title>
     <meta content="Search the world's information, including webpages,
@@ -7,12 +18,19 @@
     you find exactly what you're looking for." name="description">
 </head>
 <body>
-    <img alt="Google Logo for Accessibility Purposes" height="92" id="logo"
-    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-    style="padding-top:109px" width="272">
+    <center>
+        <img alt="Google Logo for Accessibility Purposes" height="92" id="logo"
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        style="padding-top:109px" width="272">
 
-    <div>
-       <input class="" type="text" title="Search Bar" name="Search"> 
-    </div>
+        <div id="search-bar">
+            <input class="" type="text" title="Search Bar" name="Search"> 
+        </div>
+
+        <div id="search-buttons">
+            <input value="Google Search" label="Google Search" type="submit">
+            <input value="I'm Feeling Lucky" label="I'm Feeling Lucky" type="submit">
+        </div>
+    </center>
 </body>
 </HTML>
