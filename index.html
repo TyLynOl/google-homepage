@@ -7,10 +7,18 @@
             padding-top: 16px;
     }
     #T1, #T2 {
+            font-family: arial;
+            font-size: 13px;
             padding-left: 27px;
              }
+    #searchbar {
+            height: 22px;
+            width: 450px;
+            border-radius: 25px;
+               }
     #search, #lucky {
             font-size: 14px;
+            font-family: arial;
             text-align: center;
 
             border: 1px solid;
@@ -21,11 +29,29 @@
                     }
     #footer {
             display: block;
+            background: #f2f2f2;
             position: fixed;
+            width: 100%;
             bottom: 0px;
             line-height: 40px;
             }
     #F1, #F2, #F3 {
+            font-size: 13px;
+            font-family: arial;
+            margin: 0px;
+            padding-left: 27px;
+                  }
+    #fls {
+            float: left;
+            margin-left: 30px;
+         }
+    #frs {
+            float: right;
+            margin-right: 30px;
+         }
+    #B1, #B2, #B3 {
+            font-family: arial;
+            font-size: 13px;
             margin: 0px;
             padding-left: 27px;
                   }
@@ -36,7 +62,7 @@
     images, videos and more. Google has many special features to help 
     you find exactly what you're looking for." name="description">
 </head>
-<body id="viewport">
+<body name="viewport">
     <div id="top">
         <a href="" id="T1">About</a>
         <a href="" id="T2">Store</a>
@@ -46,19 +72,26 @@
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         style="padding-top:109px" width="272">
 
-        <div id="search-bar">
-            <input class="" type="text" title="Search Bar" name="Search"> 
+        <div name="search-bar">
+            <input id="searchbar" class="" type="text" title="Search Bar"> 
         </div>
 
-        <div id="search-buttons">
-            <input value="Google Search" label="Google Search" type="submit">
-            <input value="I'm Feeling Lucky" label="I'm Feeling Lucky" type="submit">
+        <div name="search-buttons">
+            <input id="search" value="Google Search" label="Google Search" type="submit">
+            <input id="lucky" value="I'm Feeling Lucky" label="I'm Feeling Lucky" type="submit">
         </div>
     </center>
     <footer id="footer">
-        <a href="" id="F1">Advertising</a>
-        <a href="" id="F2">Business</a>
-        <a href="" id="F3">How Search Works</a>
+        <div id="fls">
+            <a href="" id="F1">Advertising</a>
+            <a href="" id="F2">Business</a>
+            <a href="" id="F3">How Search Works</a>
+        </div>
+        <div id="frs">
+            <a href="" id="B1">Privacy</a>
+            <a href="" id="B2">Terms</a>
+            <a href="" id="B3">Settings</a>
+        </div>
     </footer>
 </body>
 </HTML>
