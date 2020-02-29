@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <HTML>
 <style>
-    div {
+   div {
             display: block;
             align-content: center;
             padding-top: 16px;
     }
-    #search-buttons {
+    #T1, #T2 {
+            padding-left: 27px;
+             }
+    #search, #lucky {
+            font-size: 14px;
             text-align: center;
+
+            border: 1px solid;
             border-radius: 4px;
-    }
+
+            margin: 11px 4px; 
+            padding: 0 16px
+                    }
+    #footer {
+            display: block;
+            line-height: 40px;
+            }
+    #F1, #F2, #F3 {
+            margin: 0px;
+            padding-left: 27px;
+                  }
 </style>
 <head>
     <title>Google</title>
@@ -17,7 +34,11 @@
     images, videos and more. Google has many special features to help 
     you find exactly what you're looking for." name="description">
 </head>
-<body>
+<body id="viewport">
+    <div id="top">
+        <a href="" id="T1">About</a>
+        <a href="" id="T2">Store</a>
+    </div>
     <center>
         <img alt="Google Logo for Accessibility Purposes" height="92" id="logo"
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
@@ -32,5 +53,10 @@
             <input value="I'm Feeling Lucky" label="I'm Feeling Lucky" type="submit">
         </div>
     </center>
+    <footer id="footer">
+        <a href="" id="F1">Advertising</a>
+        <a href="" id="F2">Business</a>
+        <a href="" id="F3">How Search Works</a>
+    </footer>
 </body>
 </HTML>
